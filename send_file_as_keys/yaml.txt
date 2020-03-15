@@ -1,0 +1,16 @@
+input: 
+ authorizations:
+ - guidObject: e8c25eab-0b0c-4fbc-9dab-147306050748
+   guidObjectParent: 7ccb6773-342d-408e-8d42-8c0268a4d866
+   objName: Authorization-e8c25eab-0b0c-4fbc-9dab-147306050748
+   changeSetId: 1
+ - guidObject: dec80e6f-86a4-491b-8a36-fd78b102aade
+   guidObjectParent: 7ccb6773-342d-408e-8d42-8c0268a4d866
+   objName: Authorization-dec80e6f-86a4-491b-8a36-fd78b102aade
+   changeSetId: 2
+referencedAuthorizations:
+- e8c25eab-0b0c-4fbc-9dab-147306050748
+expected:
+ idsToDelete: []
+ idsReferencedThatCannotBeDeleted:
+ - e8c25eab-0b0c-4fbc-9dab-147306050748
